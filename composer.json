@@ -1,0 +1,23 @@
+{
+    "name": "mohamed/zoxav",
+    "authors": [
+        {
+            "name": "MohamedPHP",
+            "email": "mohamedzayed709@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/main.php"
+        ]
+    },
+    "require": {
+        "symfony/console": "^4.2"
+    }
+}
